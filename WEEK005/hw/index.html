@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+	 .circle {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: #bcd6ff;
+            	top:1000px;
+    	right:60px;
+    	z-index:2;
+    	float:center;
+    	object-position: 5px 10%;
+    	}
+
+	h3 {
+      position: absolute;
+      padding: 180px;
+      z-index: 3;
+      color: black;
+ 	bottom:px;
+    top:30px;
+    float:center;
+  width: 300px;
+  height: 250px;
+  -webkit-border-radius: 1000px;
+     -moz-border-radius: 1000px;
+              border-radius: 1000px;
+  -webkit-shape-outside: circle(50%);
+     -moz-shape-outside: circle(50%);
+       -ms-shape-outside: circle(50%);
+              shape-outside: circle(50%);}
+    text {
+            font-size: 30px;
+            font-family: Times New Roman ,serif;
+            font-weight: bold;
+            font-variant: small-caps;
+            font-variant-ligatures: none;
+            stroke: black;
+            stroke-width: 0.58px;
+            fill: white;
+        	z-index:1;}
+    body {background-color: darkgrey;}
+</style>
+</head>
+<body>
+  <nav>
+  <h3 align="center">
+    Your eye, first of all,<br> 
+    would glide over the grey fitted carpet in the narrow, long and high-ceilinged corridor. Its walls would be fittings of gleaming brass. Three prints, depicting, respectively, the Derby winner Thunderbird, a paddle-steamer named Ville-de-Mottiereau.
+</h3>
+</nav>
+ <defs>
+        <path id="circle"
+              
+              fill="#bcd6ff"/>
+    </defs>    <nav>
+        
+	<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+    <title>Circular Text Path</title>
+    
+    
+    <defs>
+        <path id="textcircle"
+              d="M250,400
+                 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+              transform="rotate(155,250,250)"
+              fill="none"/>
+    </defs>
+    
+    <text>
+        
+        <textPath xlink:href="#textcircle"
+                  aria-label="THINGS, A STORY OF THE SIXITIES A MAN ASLEEP."
+                  textLength="935">THINGS,A STORY OF THE SIXITIES A MAN ASLEEP.</textPath>
+    </text>
+	</svg>
+    </nav>
+ 
+</body>
+</html>
