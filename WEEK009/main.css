@@ -109,6 +109,7 @@ header{
 	border-bottom-right-radius: 100%;
 	border-bottom-left-radius: 100%;
 	transition: all 650ms cubic-bezier(1,0,0,1);
+	position:fixed;
 
 }
 
@@ -146,7 +147,7 @@ li{
 }
 
 .menu-toggler{
-	position: absolute;
+	position: fixed;
 	top: 5rem;
 	right: 5rem;
 	width: 5rem;
